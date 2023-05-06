@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="icon" href="images/logo-small.svg" />
-  <title>%ProjectName% | Home</title>
+  <title>Jericho</title>
 </head>
 
 <body>
@@ -22,10 +22,10 @@
           <div class="nav" id="menu">
             <div class="nav__inner">
               <div class="nav__inner-group">
-                <a href="#" class="nav__inner-link">Home</a>
-                <a href="#" class="nav__inner-link"> About us </a>
-                <a href="#" class="nav__inner-link">Products</a>
-                <a href="#" class="nav__inner-link">Contact</a>
+                <a href="#home" class="nav__inner-link">Home</a>
+                <a href="#about" class="nav__inner-link"> About us </a>
+                <a href="#products" class="nav__inner-link">Products</a>
+                <a href="#contact" class="nav__inner-link">Contact</a>
                 <a href="#" class="nav__inner-link">Language</a>
               </div>
             </div>
@@ -35,9 +35,10 @@
       </div>
     </header>
     <!-- #header end -->
-
+    <div class="anchor" id="home">
+    </div>
     <!-- #hero -->
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="autoContainer">
         <div class="hero__inner">
           <h1>
@@ -65,12 +66,13 @@
       </div>
     </section>
     <!-- #hero end -->
-
+    <div class="anchor" id="about">
+    </div>
     <!-- #about start -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="autoContainer _sm">
         <div class="about__inner">
-          <p class="lg">
+          <p class="_lg">
             You've come to the right place if you want to sell or buy all kind of plastics. We are constantly looking
             for new partners for the purchase and sale of various materials. We act unbureaucratically, reliably,
             competently and have short decision-making processes.
@@ -243,9 +245,10 @@
       </div>
     </section>
     <!-- #service end -->
-
+    <div class="anchor" id="products">
+    </div>
     <!-- #products start -->
-    <section class="products">
+    <section class="products" id="products">
       <div class="autoContainer _sm">
         <div class="products__inner">
           <h3>
@@ -254,7 +257,9 @@
           <div class="products__inner-row">
             <div class="productsItem">
               <div class="productsItem__image">
-                <img src="./images/products/product-1.png" alt="">
+                <div class="ratioImage">
+                  <img src="./images/products/product-1.png" alt="">
+                </div>
               </div>
               <h3 class="_sm">
                 PP
@@ -262,7 +267,9 @@
             </div>
             <div class="productsItem">
               <div class="productsItem__image">
-                <img src="./images/products/product-2.png" alt="">
+                <div class="ratioImage">
+                  <img src="./images/products/product-2.png" alt="">
+                </div>
               </div>
               <h3 class="_sm">
                 PE
@@ -270,7 +277,9 @@
             </div>
             <div class="productsItem">
               <div class="productsItem__image">
-                <img src="./images/products/product-3.png" alt="">
+                <div class="ratioImage">
+                  <img src="./images/products/product-3.png" alt="">
+                </div>
               </div>
               <h3 class="_sm">
                 PVC
@@ -278,7 +287,9 @@
             </div>
             <div class="productsItem">
               <div class="productsItem__image">
-                <img src="./images/products/product-4.png" alt="">
+                <div class="ratioImage">
+                  <img src="./images/products/product-4.png" alt="">
+                </div>
               </div>
               <h3 class="_sm">
                 PA
@@ -286,7 +297,9 @@
             </div>
             <div class="productsItem">
               <div class="productsItem__image">
-                <img src="./images/products/product-5.png" alt="">
+                <div class="ratioImage">
+                  <img src="./images/products/product-5.png" alt="">
+                </div>
               </div>
               <h3 class="_sm">
                 PC
@@ -294,7 +307,9 @@
             </div>
             <div class="productsItem">
               <div class="productsItem__image">
-                <img src="./images/products/product-6.png" alt="">
+                <div class="ratioImage">
+                  <img src="./images/products/product-6.png" alt="">
+                </div>
               </div>
               <h3 class="_sm">
                 PMMA
@@ -329,8 +344,10 @@
 
     <!-- Contact and Footer  -->
     <div class="wrapper">
+      <div class="anchor" id="contact">
+      </div>
       <!-- #contact start -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="autoContainer">
           <div class="contact__inner">
             <div class="contact__inner-info">
@@ -357,7 +374,9 @@
                 <textarea placeholder="Your Message"></textarea>
               </div>
               <button class="button button--secondary" type="button">
-                Send message
+                <span>
+                  Send message
+                </span>
               </button>
             </form>
           </div>
@@ -368,9 +387,9 @@
       <footer class="footer">
         <div class="autoContainer">
           <div class="footer__inner">
-            <div class="footer__inner-logo">
+            <a href="#" class="footer__inner-logo">
               <img src="./images/logoLight.png" alt="">
-            </div>
+            </a>
             <div class="footer__inner-content">
               <div class="footer__inner-links">
                 <a href="#" class="footerLink">Home</a>
@@ -411,7 +430,7 @@
             </a>
             <a href="#">
               Privacy Policy
-            </a> 
+            </a>
             <a href="">Connect with usCookies</a>
           </div>
         </div>

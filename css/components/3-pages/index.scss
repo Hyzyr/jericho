@@ -24,19 +24,21 @@
   z-index: 3;
   &__inner {
     position: relative;
-    padding: 356px 200px 303px;
+    padding: 356px 30px 303px;
     max-width: 1100px;
     margin: 0 auto;
     p {
       text-align: center;
       font-weight: 400;
-      max-width: 520px;
+      max-width: 710px;
       font-family: $font-secondary;
       line-height: 1.6;
       margin: 0 auto;
     }
     &-bg {
       z-index: -1;
+      min-width: 890px;
+      width: 140%;
       img {
         object-fit: contain;
       }
@@ -125,7 +127,7 @@
   &Item {
     width: calc(33.3% - 15px);
     &__body {
-      max-width: 280px;
+      max-width: 285px;
       margin: 0 auto;
       &-image {
         width: 175px;
@@ -171,8 +173,8 @@
   &Item {
     width: calc(16.6% - 15px);
     &__image {
-      width: 155px;
-      height: 155px;
+      width: 100%;
+      max-width: 155px;
       border-radius: 50px;
       overflow: hidden;
       margin: 0 auto 18px;
@@ -248,5 +250,227 @@
   margin-top: -180px;
 
   &__bg {
+  }
+}
+
+@mixin index-1450 {
+  .hero {
+    padding: 300px 0 190px;
+  }
+  .about {
+    margin-top: -100px;
+  }
+}
+@mixin index-1300 {
+  .hero {
+    padding: 270px 0 170px;
+  }
+  .about {
+    margin-top: -90px;
+  }
+}
+@mixin index-1280 {
+  .hero {
+    padding: 250px 0 150px;
+  }
+  .about {
+    margin-top: -70px;
+    &__inner {
+      padding: 300px 20px 270px;
+    }
+  }
+  .benefits {
+    &__inner {
+      &-content {
+        gap: 10px;
+      }
+      &-column {
+        width: calc(33.3% - 10px);
+      }
+    }
+  }
+}
+@mixin index-1160 {
+  .benefits {
+    &__inner {
+      h2 {
+        margin-bottom: 40px;
+      }
+      &-content {
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+      &-column {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        &.midle {
+          margin-top: 0;
+        }
+      }
+    }
+    &Item {
+      max-width: 500px;
+      width: calc(50% - 10px);
+    }
+  }
+  .products {
+    &__inner {
+      &-row {
+        flex-wrap: wrap;
+        gap: 25px 15px;
+        margin-bottom: 30px;
+      }
+    }
+    &Item {
+      &__image {
+        max-width: 210px;
+      }
+      width: calc(33.3% - 15px);
+    }
+  }
+}
+@mixin index-1025 {
+  .contact {
+    &__inner {
+      flex-direction: column;
+      padding-top: 190px;
+      gap: 30px;
+      &-info {
+        width: 100%;
+        max-width: 700px;
+      }
+      &-form {
+        width: 100%;
+        max-width: 700px;
+      }
+    }
+  }
+}
+@mixin index-940 {
+  .service {
+    &Item {
+      width: calc(50% - 15px);
+    }
+  }
+}
+@mixin index-768 {
+  .hero {
+    padding: 200px 0 130px;
+    &__inner {
+      gap: 25px;
+    }
+  }
+  .about {
+    margin-top: -50px;
+    &__inner {
+      padding: 250px 30px 150px;
+    }
+  }
+  .benefits {
+    &Item {
+      padding: 10px;
+      h4 {
+        bottom: 45px;
+      }
+    }
+  }
+  .service {
+    &__inner {
+      &-row {
+        gap: 20px 10px;
+      }
+    }
+    &Item {
+      width: calc(50% - 10px);
+      &__body {
+        &-image {
+          width: 165px;
+          height: 165px;
+        }
+      }
+      h6 {
+        padding: 0.5em 1.7em 0.7em;
+      }
+    }
+  }
+  .info {
+    padding: 132px 0 160px;
+  }
+}
+@mixin index-668 {
+  .benefits {
+    &__inner {
+      &-column {
+        flex-wrap: wrap;
+      }
+      &-content {
+        gap: 20px;
+      }
+    }
+    &Item {
+      width: 100%;
+    }
+  }
+}
+@mixin index-580 {
+  .hero {
+    &__inner {
+      gap: 20px;
+    }
+  }
+  .about {
+    &__inner {
+      padding: 250px 0 150px;
+    }
+  }
+  .service {
+    &__inner {
+    }
+    &Item {
+      width: 100%;
+      &__body {
+        &-image {
+          width: 165px;
+          height: 165px;
+        }
+      }
+      h6 {
+        padding: 0.5em 1.7em 0.7em;
+      }
+    }
+  }
+}
+@mixin index-460 {
+  .hero {
+    padding: 150px 0 80px;
+  }
+  .about {
+    margin-top: -30px;
+  }
+  .products {
+    &__inner {
+      &-row {
+        flex-wrap: wrap;
+        gap: 25px 15px;
+        margin-bottom: 30px;
+      }
+    }
+    &Item {
+      &__image {
+        max-width: 210px;
+      }
+      width: calc(50% - 15px);
+    }
+  }
+}
+@mixin index-390 {
+  .benefits {
+    &Item {
+      h4 {
+        bottom: 40px;
+      }
+    }
   }
 }
