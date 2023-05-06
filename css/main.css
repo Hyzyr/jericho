@@ -1224,9 +1224,8 @@ svg {
   .hero {
     padding: 300px 0 190px;
   }
-
-  .about {
-    margin-top: -100px;
+  .hero__bg {
+    width: 100%;
   }
 }
 @media (max-width: 1300px) {
@@ -1255,10 +1254,6 @@ svg {
 
   .hero {
     padding: 270px 0 170px;
-  }
-
-  .about {
-    margin-top: -90px;
   }
 }
 @media (max-width: 1280px) {
@@ -1294,7 +1289,7 @@ svg {
   }
 
   .about {
-    margin-top: -70px;
+    margin-top: -130px;
   }
   .about__inner {
     padding: 300px 20px 270px;
@@ -1606,7 +1601,7 @@ svg {
   }
 
   .about {
-    margin-top: -50px;
+    margin-top: -100px;
   }
   .about__inner {
     padding: 250px 30px 150px;
@@ -1780,10 +1775,6 @@ svg {
 
   .hero {
     padding: 150px 0 80px;
-  }
-
-  .about {
-    margin-top: -30px;
   }
 
   .products__inner-row {

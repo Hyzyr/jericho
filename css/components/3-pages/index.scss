@@ -256,9 +256,9 @@
 @mixin index-1450 {
   .hero {
     padding: 300px 0 190px;
-  }
-  .about {
-    margin-top: -100px;
+    &__bg {
+      width: 100%;
+    }
   }
 }
 @mixin index-1300 {
@@ -266,7 +266,6 @@
     padding: 270px 0 170px;
   }
   .about {
-    margin-top: -90px;
   }
 }
 @mixin index-1280 {
@@ -274,7 +273,7 @@
     padding: 250px 0 150px;
   }
   .about {
-    margin-top: -70px;
+    margin-top: -130px;
     &__inner {
       padding: 300px 20px 270px;
     }
@@ -363,7 +362,7 @@
     }
   }
   .about {
-    margin-top: -50px;
+    margin-top: -100px;
     &__inner {
       padding: 250px 30px 150px;
     }
@@ -445,9 +444,6 @@
 @mixin index-460 {
   .hero {
     padding: 150px 0 80px;
-  }
-  .about {
-    margin-top: -30px;
   }
   .products {
     &__inner {
