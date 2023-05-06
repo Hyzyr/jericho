@@ -49,12 +49,12 @@
     position: relative;
     &::before {
       content: "";
-      width: calc(100% + 420px);
+      width: calc(100% + 350px);
       height: 100%;
       background: #595959;
       position: absolute;
       top: 0;
-      left:-210px ;
+      left:-175px ;
     }
     p {
       color: $white;

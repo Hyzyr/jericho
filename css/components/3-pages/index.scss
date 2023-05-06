@@ -1,5 +1,5 @@
 .hero {
-  padding: 320px 0 190px;
+  padding: 320px 0 210px;
   position: relative;
   &__inner {
     position: relative;
@@ -13,7 +13,7 @@
       font-weight: 600;
     }
   }
- 
+
   &__bg {
     z-index: -1;
   }
@@ -109,7 +109,7 @@
 .service {
   position: relative;
   margin-top: -120px;
-  padding: 230px 0 115px;
+  padding: 230px 0 145px;
   &__inner {
     h3 {
       margin-bottom: 35px;
@@ -224,6 +224,7 @@
       flex-direction: column;
       gap: 25px;
       width: calc(50% - 10px);
+      max-width: 740px;
       p {
         color: $white;
       }
@@ -233,6 +234,7 @@
     }
     &-form {
       width: calc(50% - 10px);
+      max-width: 580px;
       display: flex;
       flex-direction: column;
       gap: 16px;
