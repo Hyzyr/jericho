@@ -110,7 +110,7 @@ p {
   }
   p {
     &._lg {
-      font-size: 26px;
+      font-size: 24px;
     }
   }
 }
@@ -132,9 +132,6 @@ p {
   }
   p {
     font-size: 22px;
-    &._lg {
-      font-size: 28px;
-    }
   }
 }
 @mixin typography-1025 {

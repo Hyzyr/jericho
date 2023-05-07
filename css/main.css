@@ -1326,7 +1326,7 @@ svg {
   }
 
   p._lg {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .hero {
@@ -1339,8 +1339,12 @@ svg {
   .about__inner {
     padding: 300px 20px 270px;
   }
+  .about__inner p {
+    max-width: 500px;
+  }
   .about__bg {
-    max-width: 1000px;
+    max-width: 880px;
+    min-width: 880px;
   }
 
   .benefits__inner-content {
@@ -1372,9 +1376,6 @@ svg {
 
   p {
     font-size: 22px;
-  }
-  p._lg {
-    font-size: 28px;
   }
 
   .benefits__inner h2 {

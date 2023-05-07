@@ -302,9 +302,13 @@
     margin-top: -130px;
     &__inner {
       padding: 300px 20px 270px;
+      p {
+        max-width: 500px;
+      }
     }
     &__bg {
-      max-width: 1000px;
+      max-width: 880px;
+      min-width: 880px;
     }
   }
   .benefits {
