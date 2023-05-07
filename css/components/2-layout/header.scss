@@ -47,12 +47,6 @@
   &.active {
     background: #f5d54e;
     transition: 0.4s ease;
-    .burger {
-      &::before,
-      &::after {
-        background: $white;
-      }
-    }
   }
 }
 .nav {
@@ -331,6 +325,10 @@
   .nav {
     top: 70px;
     height: calc(100% - 70px);
+  }
+  .burger {
+    width: 2.2em;
+    height: 1.8em;
   }
 }
 @mixin header-390 {

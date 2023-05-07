@@ -20,6 +20,7 @@
   @include header-1280;
   @include typography-1280;
   @include index-1280;
+  @include components-1280;
 }
 @media (max-width: 1160px) {
   @include typography-1160;

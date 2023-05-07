@@ -204,24 +204,26 @@
     }
   }
 }
-@mixin components-1300{
+@mixin components-1300 {
   .input {
     font-size: 18px;
   }
 }
-
+@mixin components-1280 {
+ 
+}
 @mixin components-1160 {
   .input {
-    input,
+     input,
     textarea {
       padding: 1em 1.4em;
     }
   }
-}
-@mixin components-940 {
   .button {
     font-size: 23px;
   }
+}
+@mixin components-940 {
 }
 @mixin components-768 {
   .button {
@@ -237,5 +239,4 @@
   .button {
     font-size: 16px;
   }
-  
 }

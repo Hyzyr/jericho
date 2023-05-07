@@ -791,9 +791,6 @@ svg {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
-.header.active .burger::before, .header.active .burger::after {
-  background: #ffffff;
-}
 
 .nav {
   overflow: hidden;
@@ -1228,6 +1225,11 @@ svg {
             transform: translateX(-50%);
   }
 
+  .wrapper__bg img {
+    -o-object-position: right;
+       object-position: right;
+  }
+
   .bg img {
     -o-object-fit: cover;
        object-fit: cover;
@@ -1324,7 +1326,7 @@ svg {
   }
 
   p._lg {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .hero {
@@ -1336,6 +1338,9 @@ svg {
   }
   .about__inner {
     padding: 300px 20px 270px;
+  }
+  .about__bg {
+    max-width: 1000px;
   }
 
   .benefits__inner-content {
@@ -1402,6 +1407,10 @@ svg {
   .input input,
 .input textarea {
     padding: 1em 1.4em;
+  }
+
+  .button {
+    font-size: 23px;
   }
 
   .footer__inner-logo {
@@ -1538,7 +1547,7 @@ svg {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 190px;
+    padding: 260px 0 250px;
     gap: 30px;
   }
   .contact__inner-info {
@@ -1558,13 +1567,17 @@ svg {
     width: 250px;
   }
   .footer__copy {
-    gap: 20px 15px;
-    padding: 35px 0;
+    gap: 10px 15px;
+    padding: 15px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .footer__copy p {
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4;
+    text-align: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     width: 100%;
   }
 
@@ -1579,10 +1592,6 @@ svg {
 @media (max-width: 940px) {
   .autoContainer {
     padding: 0 25px;
-  }
-
-  .button {
-    font-size: 23px;
   }
 
   .service__inner-row {
@@ -1814,6 +1823,10 @@ svg {
     width: 100%;
     max-width: 450px;
   }
+
+  .contact__inner {
+    padding: 260px 0 150px;
+  }
 }
 @media (max-width: 460px) {
   h1 {
@@ -1850,10 +1863,6 @@ svg {
     padding: 150px 0 80px;
   }
 
-  .contact__inner {
-    padding: 170px 0 70px;
-  }
-
   .header__inner-logo {
     width: 130px;
   }
@@ -1861,6 +1870,11 @@ svg {
   .nav {
     top: 70px;
     height: calc(100% - 70px);
+  }
+
+  .burger {
+    width: 2.2em;
+    height: 1.8em;
   }
 }
 @media (max-width: 390px) {
