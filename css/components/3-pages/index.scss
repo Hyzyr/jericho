@@ -435,16 +435,12 @@
 @mixin index-668 {
   .benefits {
     &__inner {
-      &-column {
-        flex-wrap: wrap;
-      }
       &-content {
-        gap: 20px;
+        gap: 10px;
       }
     }
     &Item {
-      width: 100%;
-      max-width: 560px;
+      width: calc(50% - 6px);
     }
   }
 }
@@ -475,12 +471,32 @@
       }
     }
   }
+  .benefits {
+    &__inner {
+      &-column {
+        flex-wrap: wrap;
+      }
+      &-content {
+        gap: 20px;
+      }
+    }
+    &Item {
+      width: 100%;
+      max-width: 450px;
+    }
+  }
 }
 @mixin index-460 {
   .hero {
     padding: 150px 0 80px;
   }
+  .contact {
+    &__inner {
+      padding: 170px 0 70px;
+    }
+  }
 }
+
 @mixin index-390 {
   .benefits {
     &Item {
