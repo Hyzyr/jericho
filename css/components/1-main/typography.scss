@@ -137,6 +137,16 @@ p {
     }
   }
 }
+@mixin typography-1025{
+  h3 {
+    &._sm{
+      font-size: 40px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+  }
+}
 @mixin typography-940 {
   h4 {
     font-size: 21px;
@@ -160,9 +170,7 @@ p {
       font-size: 32px;
     }
   }
-  h6 {
-    font-size: 18px;
-  }
+ 
   p {
     &._lg {
       font-size: 26px;

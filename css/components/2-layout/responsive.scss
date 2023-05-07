@@ -1,14 +1,17 @@
+@media (max-width: 1600px) {
+  @include index-1600;
+  @include components-1600;
+}
 @media (max-width: 1450px) {
   @include header-1450;
   @include typography-1450;
   @include index-1450;
-
 }
 @media (max-width: 1300px) {
   @include header-1300;
   @include typography-1300;
   @include index-1300;
-
+  @include components-1300;
 }
 @media (max-width: 1280px) {
   .autoContainer {
@@ -23,8 +26,6 @@
   @include index-1160;
   @include components-1160;
   @include footer-1160;
-
-
 }
 @media (max-width: 1025px) {
   .autoContainer {
@@ -33,7 +34,7 @@
   @include header-1025;
   @include index-1025;
   @include footer-1025;
-
+  @include typography-1025;
 }
 @media (max-width: 940px) {
   .autoContainer {
@@ -58,7 +59,6 @@
   @include components-668;
   @include index-668;
   @include footer-668;
-
 }
 @media (max-width: 580px) {
   ._hideMob {
