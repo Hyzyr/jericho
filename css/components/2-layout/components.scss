@@ -197,6 +197,30 @@
   position: relative;
   top: -120px;
 }
+.dropdown {
+  position: relative;
+  transition: 0.3s ease-in;
+  &:hover {
+    .dropdown {
+      &__content {
+        max-height: 200px;
+        opacity: 1;
+        background: $primary;
+        pointer-events: all;
+      }
+    }
+  }
+  &__content {
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s ease-in;
+    pointer-events: none;
+  }
+}
 @mixin components-1600 {
   .bg {
     img {
@@ -210,11 +234,10 @@
   }
 }
 @mixin components-1280 {
- 
 }
 @mixin components-1160 {
   .input {
-     input,
+    input,
     textarea {
       padding: 1em 1.4em;
     }
@@ -234,9 +257,15 @@
   .button {
     font-size: 18px;
   }
+  .anchor {
+    top: -90px;
+  }
 }
 @mixin components-460 {
   .button {
     font-size: 16px;
+  }
+  .anchor {
+    top: -65px;
   }
 }

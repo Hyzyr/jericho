@@ -85,6 +85,10 @@
     font-size: 17px;
   }
   &Link {
+    color: $white;
+    font-weight: 400;
+    font-size: 20px;
+    @include transition;
     &:hover {
       color: $primary;
       opacity: 0.8;
@@ -94,6 +98,26 @@
     &:hover {
       color: $primary;
       opacity: 0.8;
+    }
+  }
+  .dropdown {
+    z-index: 3;
+    button {
+      padding-bottom: 0.3em;
+    }
+    &__content {
+      padding: 0.5em 0.5em;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      a {
+        color: $black;
+        padding: 0.2em 0.5em;
+        font-size: 18px;
+        &:hover {
+          color: $white;
+        }
+      }
     }
   }
 }
@@ -149,7 +173,7 @@
         margin: 0 auto;
       }
     }
-    &__copy{
+    &__copy {
       padding: 30px 0;
     }
   }
@@ -174,6 +198,27 @@
       a,
       p {
         font-size: 14px;
+      }
+    }
+    .dropdown {
+      z-index: 3;
+      &:hover {
+        .dropdown {
+          &__content {
+            padding: 0.5em 0.5em;
+            a {
+              padding: 0.2em 0.5em;
+            }
+          }
+        }
+      }
+      &__content {
+        padding: unset;
+        position: unset;
+        @include transition;
+        a {
+          padding: unset;
+        }
       }
     }
   }

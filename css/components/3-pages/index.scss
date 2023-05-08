@@ -24,7 +24,7 @@
   z-index: 3;
   position: relative;
   &__inner {
-    padding: 356px 30px 303px;
+    padding: 380px 30px 250px;
     max-width: 1100px;
     margin: 0 auto;
     p {
@@ -258,13 +258,13 @@
 
 @mixin index-1600 {
   .about {
-    &__bg {
-      width: 100%;
-      max-width: 1200px;
-      min-width: 950px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
+    // &__bg {
+    //   width: 100%;
+    //   max-width: 1200px;
+    //   min-width: 950px;
+    //   left: 50%;
+    //   transform: translateX(-50%);
+    // }
   }
   .wrapper {
     &__bg {
@@ -301,13 +301,15 @@
   .about {
     margin-top: -130px;
     &__inner {
-      padding: 300px 20px 270px;
+      padding: 300px 20px 200px;
       p {
         max-width: 500px;
       }
     }
     &__bg {
-      max-width: 880px;
+      left: 50%;
+      transform: translatex(-50%);
+      max-width: 980px;
       min-width: 880px;
     }
   }
@@ -507,11 +509,16 @@
 }
 @mixin index-460 {
   .hero {
-    padding: 150px 0 80px;
+    padding: 150px 0 100px;
   }
   .contact {
     &__inner {
       // padding: 170px 0 70px;
+    }
+  }
+  .about {
+    &__inner {
+      padding: 165px 0 90px;
     }
   }
 }
