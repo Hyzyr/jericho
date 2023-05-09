@@ -164,7 +164,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 15px;
-      margin: 52px 0 15px;
+      margin: 52px 0 40px;
     }
   }
   &Item {
@@ -406,7 +406,7 @@
 }
 @mixin index-768 {
   .hero {
-    padding: 200px 0 130px;
+    padding: 180px 0 130px;
     &__inner {
       gap: 25px;
     }
@@ -459,6 +459,10 @@
       width: calc(50% - 6px);
     }
   }
+.hero{
+  padding: 220px 0 130px;
+
+}
 }
 @mixin index-580 {
   .hero {
@@ -508,9 +512,6 @@
   }
 }
 @mixin index-460 {
-  .hero {
-    padding: 150px 0 100px;
-  }
   .contact {
     &__inner {
       // padding: 170px 0 70px;
@@ -523,6 +524,10 @@
   }
 }
 @mixin index-390 {
+  .hero{
+    padding: 200px 0 130px;
+  
+  }
   .benefits {
     &Item {
       h4 {

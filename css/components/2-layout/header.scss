@@ -173,11 +173,6 @@
 @mixin header-1450 {
   .header {
     padding: 40px 0;
-    &__inner {
-      &-logo {
-        width: 240px;
-      }
-    }
   }
   .nav {
     &__inner {
@@ -193,11 +188,6 @@
 @mixin header-1300 {
   .header {
     padding: 30px 0;
-    &__inner {
-      &-logo {
-        width: 200px;
-      }
-    }
   }
   .nav {
     &__inner {
@@ -210,11 +200,6 @@
 @mixin header-1280 {
   .header {
     padding: 25px 0;
-    &__inner {
-      &-logo {
-        width: 170px;
-      }
-    }
   }
   .nav {
     &__inner {
@@ -346,29 +331,190 @@
 @mixin header-768 {
   .header {
     padding: 20px 0;
+
     &__inner {
-      &-logo {
-        width: 150px;
+      flex-wrap: wrap;
+      justify-content: center;
+      .burger {
+        display: none;
+      }
+    }
+    &.sticky {
+      .header {
+        &__inner {
+          justify-content: space-between;
+          .burger {
+            display: block;
+          }
+        }
+      }
+      .nav {
+        position: fixed;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 76px);
+        background: rgba($black, 0.4);
+        backdrop-filter: blur(4px);
+        z-index: 0;
+        transform: translate(100%);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0s ease 0.25s, opacity 0.2s ease-in-out 0s;
+        &__inner {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 35%;
+          min-width: 280px;
+          height: 100%;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          box-sizing: border-box;
+          background: #f5d54e;
+          padding: 50px 25px;
+          transform: translate(100%);
+          opacity: 0;
+          transition: 0.15s ease-in-out 0s;
+          &-group {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            color: $black;
+            border-top: 1px solid $white;
+            width: 100%;
+            &:first-child {
+              border: 0;
+            }
+          }
+          &-link {
+            color: $black;
+            background: unset;
+            position: relative;
+            padding: 0.8em 1.5em;
+            width: 100%;
+            font-size: 18px;
+            &:after {
+              content: "";
+              background: $white;
+              position: absolute;
+              left: 0;
+              top: 50%;
+              width: 3px;
+              height: 100%;
+              opacity: 0;
+              transform: translateY(-50%) scale(0);
+              transition: 0.2s ease-in;
+            }
+
+            &:hover {
+              color: $white;
+              background: unset;
+              &:after {
+                opacity: 1;
+                transform: translateY(-50%) scale(1);
+              }
+            }
+          }
+          .dropdown {
+            width: 100%;
+            button {
+              &::after {
+                top: unset;
+                bottom: 0;
+                width: 100%;
+                height: 2px;
+              }
+            }
+            &:hover {
+              button {
+                &:after {
+                  transform: scale(1);
+                  opacity: 1;
+                }
+              }
+            }
+            &__content {
+              padding: 0.5em 0;
+            }
+          }
+        }
+
+        &.active {
+          pointer-events: all;
+          transform: translate(0);
+          opacity: 1;
+          transition: opacity 0.3s ease-in-out;
+          .nav__inner {
+            opacity: 1;
+            transition: 0.3s ease-in-out 0.05s;
+            transform: translate(0);
+          }
+        }
       }
     }
   }
   .nav {
-    top: 76px;
-    height: calc(100% - 76px);
+    position: unset;
+    height: unset;
+    transform: unset;
+    opacity: 1;
+    background: unset;
+    backdrop-filter: unset;
+    &__inner {
+      position: unset;
+      background: unset;
+      width: 100%;
+      padding: unset;
+      opacity: 1;
+      transform: unset;
+      pointer-events: all;
+      &-link {
+        padding: 0.5em 1em;
+        width: auto;
+        font-size: 16px;
+        &:after {
+          width: 100%;
+          height: 2px;
+          top: unset;
+          bottom: 0;
+          &:hover {
+            transform: translate(0) scale(1);
+          }
+        }
+      }
+      &-group {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        a {
+        }
+      }
+      .dropdown {
+        width: auto;
+      }
+    }
   }
+}
+@mixin header-668 {
+}
+
+@mixin header-580 {
 }
 @mixin header-460 {
   .header {
-    &__inner {
-      &-logo {
-        width: 130px;
+    &.sticky {
+      .nav {
+        top: 70px;
+        height: calc(100% - 70px);
       }
     }
+    &__inner {
+    }
   }
-  .nav {
-    top: 70px;
-    height: calc(100% - 70px);
-  }
+
   .burger {
     width: 2.2em;
     height: 1.8em;
@@ -378,13 +524,23 @@
   .header {
     padding: 15px 0;
     &__inner {
-      &-logo {
-        width: 110px;
+      gap: 20px;
+    }
+    &.sticky {
+      .nav {
+        top: 64px;
+        height: calc(100% - 64px);
       }
     }
   }
   .nav {
-    top: 64px;
-    height: calc(100% - 64px);
+    &__inner {
+      &-group{
+        gap: 10px 0;
+      }
+      &-link {
+        font-size: 15px;
+      }
+    }
   }
 }

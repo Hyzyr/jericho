@@ -6,21 +6,6 @@
     align-items: flex-start;
     padding-bottom: 80px;
     gap: 30px;
-    &-logo {
-      width: 290px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      @include transition;
-      cursor: pointer;
-      img {
-        width: 100%;
-        object-fit: contain;
-      }
-      &:hover {
-        opacity: 0.8;
-      }
-    }
     &-links {
       display: flex;
       flex-direction: column;
