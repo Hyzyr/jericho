@@ -107,7 +107,7 @@
   }
 }
 
-@mixin footer-1160 {
+@mixin footer-680 {
   .footer {
     &__inner {
       &-logo {
@@ -116,7 +116,7 @@
     }
   }
 }
-@mixin footer-1025 {
+@mixin footer-600 {
   .footer {
     &__inner {
       &-logo {
@@ -135,7 +135,7 @@
     }
   }
 }
-@mixin footer-940 {
+@mixin footer-520 {
   .footer {
     &__inner {
       &-content {
@@ -148,7 +148,7 @@
     }
   }
 }
-@mixin footer-668 {
+@mixin footer-400 {
   .footer {
     &__inner {
       flex-direction: column;
@@ -163,48 +163,48 @@
     }
   }
 }
-@mixin footer-390 {
-  .footer {
-    &__inner {
-      flex-direction: column;
-      padding-bottom: 60rem;
-      &-content {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 30rem;
-      }
-      &-logo {
-        width: 200rem;
-      }
-    }
-    &__copy {
-      padding: 30rem 0;
-      a,
-      p {
-        font-size: 14rem;
-      }
-    }
-    .dropdown {
-      z-index: 3;
-      &:hover {
-        .dropdown {
-          &__content {
-            padding: 0.5em 0.5em;
-            a {
-              padding: 0.2em 0.5em;
-            }
-          }
-        }
-      }
-      &__content {
-        padding: unset;
-        position: unset;
-        @include transition;
-        a {
-          padding: unset;
-        }
-      }
-    }
-  }
-}
+// @mixin footer-390 {
+//   .footer {
+//     &__inner {
+//       flex-direction: column;
+//       padding-bottom: 60rem;
+//       &-content {
+//         flex-direction: column;
+//         justify-content: flex-start;
+//         align-items: flex-start;
+//         gap: 30rem;
+//       }
+//       &-logo {
+//         width: 200rem;
+//       }
+//     }
+//     &__copy {
+//       padding: 30rem 0;
+//       a,
+//       p {
+//         font-size: 14rem;
+//       }
+//     }
+//     .dropdown {
+//       z-index: 3;
+//       &:hover {
+//         .dropdown {
+//           &__content {
+//             padding: 0.5em 0.5em;
+//             a {
+//               padding: 0.2em 0.5em;
+//             }
+//           }
+//         }
+//       }
+//       &__content {
+//         padding: unset;
+//         position: unset;
+//         @include transition;
+//         a {
+//           padding: unset;
+//         }
+//       }
+//     }
+//   }
+// }

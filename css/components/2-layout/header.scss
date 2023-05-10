@@ -170,7 +170,7 @@
   }
 }
 
-@mixin header-1450 {
+@mixin header-940 {
   .header {
     padding: 40rem 0;
   }
@@ -185,7 +185,7 @@
     }
   }
 }
-@mixin header-1300 {
+@mixin header-840 {
   .header {
     padding: 30rem 0;
   }
@@ -197,7 +197,7 @@
     }
   }
 }
-@mixin header-1280 {
+@mixin header-740 {
   .header {
     padding: 25rem 0;
   }
@@ -212,7 +212,7 @@
     }
   }
 }
-@mixin header-1025 {
+@mixin header-600 {
   .header {
     padding: 15rem 0;
     &__inner {
@@ -328,7 +328,7 @@
     }
   }
 }
-@mixin header-768 {
+@mixin header-450 {
   .header {
     padding: 20rem 0;
 
@@ -498,49 +498,49 @@
     }
   }
 }
-@mixin header-668 {
+@mixin header-400 {
 }
 
-@mixin header-580 {
+@mixin header-350 {
 }
-@mixin header-460 {
-  .header {
-    &.sticky {
-      .nav {
-        top: 70rem;
-        height: calc(100% - 70rem);
-      }
-    }
-    &__inner {
-    }
-  }
+// @mixin header-460 {
+//   .header {
+//     &.sticky {
+//       .nav {
+//         top: 70rem;
+//         height: calc(100% - 70rem);
+//       }
+//     }
+//     &__inner {
+//     }
+//   }
 
-  .burger {
-    width: 2.2em;
-    height: 1.8em;
-  }
-}
-@mixin header-390 {
-  .header {
-    padding: 15rem 0;
-    &__inner {
-      gap: 20rem;
-    }
-    &.sticky {
-      .nav {
-        top: 64rem;
-        height: calc(100% - 64rem);
-      }
-    }
-  }
-  .nav {
-    &__inner {
-      &-group{
-        gap: 10rem 0;
-      }
-      &-link {
-        font-size: 15rem;
-      }
-    }
-  }
-}
+//   .burger {
+//     width: 2.2em;
+//     height: 1.8em;
+//   }
+// }
+// @mixin header-390 {
+//   .header {
+//     padding: 15rem 0;
+//     &__inner {
+//       gap: 20rem;
+//     }
+//     &.sticky {
+//       .nav {
+//         top: 64rem;
+//         height: calc(100% - 64rem);
+//       }
+//     }
+//   }
+//   .nav {
+//     &__inner {
+//       &-group{
+//         gap: 10rem 0;
+//       }
+//       &-link {
+//         font-size: 15rem;
+//       }
+//     }
+//   }
+// }

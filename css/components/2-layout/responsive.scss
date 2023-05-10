@@ -1,89 +1,89 @@
-@media (max-width: 1600px) {
-  @include index-1600;
-  @include components-1600;
+@media (max-width: 1024px) {
+  @include index-1024;
+  @include components-1024;
 }
-@media (max-width: 1450px) {
-  @include header-1450;
-  @include typography-1450;
-  @include index-1450;
-  @include components-1450;
+@media (max-width: 940px) {
+  @include header-940;
+  @include typography-940;
+  @include index-940;
+  @include components-940;
 }
-@media (max-width: 1300px) {
-  @include header-1300;
-  @include typography-1300;
-  @include index-1300;
-  @include components-1300;
+@media (max-width: 840px) {
+  @include header-840;
+  @include typography-840;
+  @include index-840;
+  @include components-840;
 }
-@media (max-width: 1280px) {
+@media (max-width: 740px) {
   .autoContainer {
     padding: 0 40rem;
   }
-  @include header-1280;
-  @include typography-1280;
-  @include index-1280;
-  @include components-1280;
+  @include header-740;
+  @include typography-740;
+  @include index-740;
+  @include components-740;
 }
-@media (max-width: 1160px) {
-  @include typography-1160;
-  @include index-1160;
-  @include components-1160;
-  @include footer-1160;
+@media (max-width: 680px) {
+  @include typography-680;
+  @include index-680;
+  @include components-680;
+  @include footer-680;
 }
-@media (max-width: 1025px) {
+@media (max-width: 600px) {
   .autoContainer {
     padding: 0 30rem;
   }
-  @include header-1025;
-  @include index-1025;
-  @include footer-1025;
-  @include typography-1025;
+  @include header-600;
+  @include index-600;
+  @include footer-600;
+  @include typography-600;
+  @include components-600;
 }
-@media (max-width: 940px) {
+@media (max-width: 520px) {
   .autoContainer {
     padding: 0 25rem;
   }
-  html {
-    font-size: 0.6px;
-  }
-  @include components-940;
-  @include index-940;
-  @include typography-940;
-  @include footer-940;
+
+  @include components-520;
+  @include index-520;
+  @include typography-520;
+  @include footer-520;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .autoContainer {
     padding: 0 15rem;
   }
-  @include typography-768;
-  @include components-768;
-  @include index-768;
-  @include header-768;
+  
+  @include typography-450;
+  @include components-450;
+  @include index-450;
+  @include header-450;
 }
-@media (max-width: 668px) {
-  @include typography-668;
-  @include components-668;
-  @include index-668;
-  @include footer-668;
-  @include header-668;
+@media (max-width: 400px) {
+  @include typography-400;
+  @include components-400;
+  @include index-400;
+  @include footer-400;
+  @include header-400;
 }
-@media (max-width: 580px) {
+@media (max-width: 350px) {
   ._hideMob {
     display: none;
   }
-  @include typography-580;
-  @include index-580;
-  @include header-580;
+  @include typography-350;
+  @include index-350;
+  @include header-350;
 }
-@media (max-width: 460px) {
-  // @include typography-460;
-  @include components-460;
-  @include index-460;
-  @include header-460;
-}
-@media (max-width: 390px) {
-  @include typography-390;
-  @include index-390;
-  @include header-390;
-  @include footer-390;
-  @include components-390;
-}
+// @media (max-width: 460px) {
+//   // @include typography-460;
+//   @include components-460;
+//   @include index-460;
+//   @include header-460;
+// }
+// @media (max-width: 390px) {
+//   @include typography-390;
+//   @include index-390;
+//   @include header-390;
+//   @include footer-390;
+//   @include components-390;
+// }

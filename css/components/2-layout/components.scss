@@ -238,29 +238,31 @@
   }
 }
 
-@mixin components-1600 {
-  .bg{
-    img{
-      object-fit: cover;
-    }
-  }
+@mixin components-1024 {
+  
 }
-@mixin components-1450 {
+@mixin components-940 {
   .logo {
     width: 240rem;
   }
 }
-@mixin components-1300 {
+@mixin components-840 {
   .input {
     font-size: 18rem;
   }
   .logo {
     width: 200rem;
   }
+  .bg{
+    img{
+      object-fit: cover;
+    }
+  }
+
 }
-@mixin components-1280 {
+@mixin components-740 {
 }
-@mixin components-1160 {
+@mixin components-680 {
   .input {
     input,
     textarea {
@@ -276,13 +278,13 @@
  
 }
 
-@mixin components-1025{
-
+@mixin components-600{
+ 
 }
-@mixin components-940 {
+@mixin components-520 {
   
 }
-@mixin components-768 {
+@mixin components-450 {
   .button {
     font-size: 20rem;
   }
@@ -290,7 +292,7 @@
     width: 150rem;
   }
 }
-@mixin components-668 {
+@mixin components-400 {
   .button {
     font-size: 18rem;
   }
@@ -299,19 +301,19 @@
   }
  
 }
-@mixin components-460 {
-  .button {
-    font-size: 16rem;
-  }
-  .anchor {
-    top: -65rem;
-  }
-  .logo {
-    width: 130rem;
-  }
-}
-@mixin components-390 {
-  .logo {
-    width: 110rem;
-  }
-}
+// @mixin components-460 {
+//   .button {
+//     font-size: 16rem;
+//   }
+//   .anchor {
+//     top: -65rem;
+//   }
+//   .logo {
+//     width: 130rem;
+//   }
+// }
+// @mixin components-390 {
+//   .logo {
+//     width: 110rem;
+//   }
+// }

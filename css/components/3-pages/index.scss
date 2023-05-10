@@ -259,7 +259,7 @@
   }
 }
 
-@mixin index-1600 {
+@mixin index-1024 {
   .about {
     &__inner {
       padding: 360rem 30rem 300rem;
@@ -278,7 +278,7 @@
     }
   }
 }
-@mixin index-1450 {
+@mixin index-940 {
   .hero {
     padding: 300rem 0 190rem;
     &__bg {
@@ -286,7 +286,7 @@
     }
   }
 }
-@mixin index-1300 {
+@mixin index-840 {
   .hero {
     padding: 270rem 0 170rem;
   }
@@ -301,7 +301,7 @@
     margin-top: -140rem;
   }
 }
-@mixin index-1280 {
+@mixin index-740 {
   .hero {
     padding: 250rem 0 150rem;
   }
@@ -331,7 +331,7 @@
     }
   }
 }
-@mixin index-1160 {
+@mixin index-680 {
   .benefits {
     &__inner {
       h2 {
@@ -357,8 +357,8 @@
     }
   }
 }
-@mixin index-1025 {
- 
+@mixin index-600 {
+  
   .contact {
     &__inner {
       flex-direction: column;
@@ -384,7 +384,7 @@
     }
   }
 }
-@mixin index-940 {
+@mixin index-520 {
   .service {
     &__inner {
       &-row {
@@ -412,7 +412,7 @@
     }
   }
 }
-@mixin index-768 {
+@mixin index-450 {
   .hero {
     padding: 180rem 0 130rem;
     &__inner {
@@ -456,7 +456,7 @@
     padding: 132rem 0 160rem;
   }
 }
-@mixin index-668 {
+@mixin index-400 {
   .benefits {
     &__inner {
       &-content {
@@ -476,7 +476,7 @@
     }
   }
 }
-@mixin index-580 {
+@mixin index-350 {
   .hero {
     &__inner {
       gap: 20rem;
@@ -523,47 +523,47 @@
     }
   }
 }
-@mixin index-460 {
-  .contact {
-    &__inner {
-      // padding: 170rem 0 70rem;
-    }
-  }
-  .about {
-    &__inner {
-      // padding: 165rem 0 90rem;
-    }
-  }
-}
-@mixin index-390 {
-  .hero {
-    padding: 200rem 0 130rem;
-  }
-  .benefits {
-    &Item {
-      h4 {
-        bottom: 40rem;
-      }
-    }
-  }
-  .products {
-    &__inner {
-      &-row {
-        flex-wrap: wrap;
-        gap: 25rem 15rem;
-        margin-bottom: 30rem;
-      }
-    }
-    &Item {
-      &__image {
-        max-width: 210rem;
-      }
-      width: calc(50% - 15rem);
-    }
-  }
-  .about {
-    &__inner {
-      padding: 190rem 0 160rem;
-    }
-  }
-}
+// @mixin index-460 {
+//   .contact {
+//     &__inner {
+//       // padding: 170rem 0 70rem;
+//     }
+//   }
+//   .about {
+//     &__inner {
+//       // padding: 165rem 0 90rem;
+//     }
+//   }
+// }
+// @mixin index-390 {
+//   .hero {
+//     padding: 200rem 0 130rem;
+//   }
+//   .benefits {
+//     &Item {
+//       h4 {
+//         bottom: 40rem;
+//       }
+//     }
+//   }
+//   .products {
+//     &__inner {
+//       &-row {
+//         flex-wrap: wrap;
+//         gap: 25rem 15rem;
+//         margin-bottom: 30rem;
+//       }
+//     }
+//     &Item {
+//       &__image {
+//         max-width: 210rem;
+//       }
+//       width: calc(50% - 15rem);
+//     }
+//   }
+//   .about {
+//     &__inner {
+//       padding: 190rem 0 160rem;
+//     }
+//   }
+// }

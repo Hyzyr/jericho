@@ -80,7 +80,9 @@ p {
   }
 }
 
-@mixin typography-1450 {
+
+
+@mixin typography-940 {
   h1 {
     font-size: 75rem;
   }
@@ -88,7 +90,7 @@ p {
     font-size: 60rem;
   }
 }
-@mixin typography-1300 {
+@mixin typography-840 {
   h1 {
     font-size: 70rem;
   }
@@ -101,20 +103,20 @@ p {
     }
   }
 }
-@mixin typography-1300 {
-  h1 {
-    font-size: 65rem;
-  }
-  h2 {
-    font-size: 50rem;
-  }
-  p {
-    &._lg {
-      font-size: 24rem;
-    }
-  }
-}
-@mixin typography-1280 {
+// @mixin typography-1300 {
+//   h1 {
+//     font-size: 65rem;
+//   }
+//   h2 {
+//     font-size: 50rem;
+//   }
+//   p {
+//     &._lg {
+//       font-size: 26rem;
+//     }
+//   }
+// }
+@mixin typography-740 {
   h1 {
     font-size: 60rem;
   }
@@ -127,7 +129,7 @@ p {
     }
   }
 }
-@mixin typography-1160 {
+@mixin typography-680 {
   h1 {
     font-size: 55rem;
   }
@@ -147,7 +149,7 @@ p {
     font-size: 22rem;
   }
 }
-@mixin typography-1025 {
+@mixin typography-600 {
   h3 {
     &._sm {
       font-size: 40rem;
@@ -157,12 +159,12 @@ p {
     font-size: 18rem;
   }
 }
-@mixin typography-940 {
+@mixin typography-520 {
   h4 {
     font-size: 21rem;
   }
 }
-@mixin typography-768 {
+@mixin typography-450 {
   h1 {
     font-size: 55rem;
   }
@@ -182,7 +184,7 @@ p {
   }
 
 }
-@mixin typography-668 {
+@mixin typography-400 {
   h1 {
     font-size: 50rem;
   }
@@ -205,84 +207,85 @@ p {
   }
 
 }
-@mixin typography-668 {
-  h1 {
-    font-size: 38rem;
-  }
-  h2 {
-    font-size: 37rem;
-  }
-  h3 {
-    font-size: 30rem;
-    &._sm {
-      font-size: 27rem;
-    }
-  }
-  h4 {
-    font-size: 20rem;
-    &._lg {
-      font-size: 27rem;
-    }
-  }
-  p {
-    &._lg {
-      font-size: 22rem;
-    }
-  }
-}
-@mixin typography-580 {
-  h1 {
-    font-size: 33rem;
-  }
-  h2 {
-    font-size: 27rem;
-  }
-  h3 {
-    font-size: 27rem;
-    &._sm {
-      font-size: 25rem;
-    }
-  }
-  h4 {
-    font-size: 17rem;
-    &._lg {
-      font-size: 25rem;
-    }
-  }
-  p {
-    &._lg {
-      font-size: 18rem;
-    }
-    &._sm {
-      font-size: 18rem;
-    }
-  }
-}
-@mixin typography-390 {
-  h1 {
-    font-size: 27rem;
-  }
-  h2 {
-    font-size: 25rem;
-  }
-  h3 {
-    font-size: 25rem;
-    &._sm {
-      font-size: 23rem;
-    }
-  }
-  h4 {
-    font-size: 18rem;
-    &._lg {
-      font-size: 23rem;
-    }
-  }
-  p {
-    &._lg {
-      font-size: 16rem;
-    }
-    &._sm {
-      font-size: 16rem;
-    }
-  }
-}
+// @mixin typography-668 {
+//   h1 {
+//     font-size: 38rem;
+//   }
+//   h2 {
+//     font-size: 37rem;
+//   }
+//   h3 {
+//     font-size: 30rem;
+//     &._sm {
+//       font-size: 27rem;
+//     }
+//   }
+//   h4 {
+//     font-size: 20rem;
+//     &._lg {
+//       font-size: 27rem;
+//     }
+//   }
+//   p {
+//     &._lg {
+//       font-size: 22rem;
+//     }
+//   }
+// }
+// @mixin typography-350 {
+//   h1 {
+//     font-size: 33rem;
+//   }
+//   h2 {
+//     font-size: 27rem;
+//   }
+//   h3 {
+//     font-size: 27rem;
+//     &._sm {
+//       font-size: 25rem;
+//     }
+//   }
+//   h4 {
+//     font-size: 17rem;
+//     &._lg {
+//       font-size: 25rem;
+//     }
+//   }
+//   p {
+//     &._lg {
+//       font-size: 18rem;
+//     }
+//     &._sm {
+//       font-size: 18rem;
+//     }
+//   }
+// }
+// @mixin typography-390 {
+//   h1 {
+//     font-size: 27rem;
+//   }
+//   h2 {
+//     font-size: 25rem;
+//   }
+//   h3 {
+//     font-size: 25rem;
+//     &._sm {
+//       font-size: 23rem;
+//     }
+//   }
+//   h4 {
+//     font-size: 18rem;
+//     &._lg {
+//       font-size: 23rem;
+//     }
+//   }
+//   p {
+//     &._lg {
+//       font-size: 16rem;
+//     }
+//     &._sm {
+//       font-size: 16rem;
+//     }
+//   }
+// }
+
