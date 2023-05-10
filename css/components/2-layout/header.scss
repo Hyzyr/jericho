@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 60px 0;
+  padding: 60rem 0;
   z-index: 1;
   transition: 0.2s ease-out;
   transition-property: opacity, transform, padding;
@@ -13,10 +13,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 30rem;
     z-index: 2;
     &-logo {
-      width: 255px;
+      width: 255rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -38,11 +38,11 @@
 
   &.sticky {
     position: fixed;
-    padding: 15px 0;
+    padding: 15rem 0;
     background: #f5d54e;
     animation: 0.3s sticky ease-in;
     transition-duration: 0.5s;
-    box-shadow: 5px 4px 16px 0px #00000040;
+    box-shadow: 5rem 4rem 16rem 0rem #00000040;
   }
   &.active {
     background: #f5d54e;
@@ -57,7 +57,7 @@
     &-group {
       display: flex;
       align-items: center;
-      gap: 75px;
+      gap: 75rem;
     }
     &-link {
       position: relative;
@@ -68,15 +68,15 @@
       font-family: $font-secondary;
       font-style: normal;
       font-weight: 400;
-      font-size: 24px;
+      font-size: 24rem;
       line-height: 1;
       transition: 0.3s ease-out;
       padding: 0.8em 0.5em;
-      border-radius: 10px;
+      border-radius: 10rem;
       &:after {
         content: "";
         width: 100%;
-        height: 2px;
+        height: 2rem;
         background: $white;
         position: absolute;
         left: 0;
@@ -116,7 +116,7 @@
   cursor: pointer;
   display: block;
   position: relative;
-  font-size: 10px;
+  font-size: 10rem;
   width: 2.6em;
   height: 2em;
   color: $white;
@@ -172,49 +172,49 @@
 
 @mixin header-1450 {
   .header {
-    padding: 40px 0;
+    padding: 40rem 0;
   }
   .nav {
     &__inner {
       &-link {
-        font-size: 22px;
+        font-size: 22rem;
       }
       &-group {
-        gap: 50px;
+        gap: 50rem;
       }
     }
   }
 }
 @mixin header-1300 {
   .header {
-    padding: 30px 0;
+    padding: 30rem 0;
   }
   .nav {
     &__inner {
       &-link {
-        font-size: 20px;
+        font-size: 20rem;
       }
     }
   }
 }
 @mixin header-1280 {
   .header {
-    padding: 25px 0;
+    padding: 25rem 0;
   }
   .nav {
     &__inner {
       &-group {
-        gap: 30px;
+        gap: 30rem;
       }
       &-link {
-        font-size: 18px;
+        font-size: 18rem;
       }
     }
   }
 }
 @mixin header-1025 {
   .header {
-    padding: 15px 0;
+    padding: 15rem 0;
     &__inner {
       justify-content: space-between;
       .burger {
@@ -225,12 +225,12 @@
   }
   .nav {
     position: fixed;
-    top: 82px;
+    top: 82rem;
     left: 0;
     width: 100%;
-    height: calc(100% - 82px);
+    height: calc(100% - 82rem);
     background: rgba($black, 0.4);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(4rem);
     z-index: 0;
     transform: translate(100%);
     opacity: 0;
@@ -241,23 +241,23 @@
       top: 0;
       right: 0;
       width: 35%;
-      min-width: 280px;
+      min-width: 280rem;
       height: 100%;
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
       box-sizing: border-box;
       background: #f5d54e;
-      padding: 50px 25px;
+      padding: 50rem 25rem;
       transform: translate(100%);
       opacity: 0;
       transition: 0.15s ease-in-out 0s;
       &-group {
         flex-direction: column;
         align-items: flex-start;
-        gap: 20px;
+        gap: 20rem;
         color: $black;
-        border-top: 1px solid $white;
+        border-top: 1rem solid $white;
         width: 100%;
         &:first-child {
           border: 0;
@@ -275,7 +275,7 @@
           position: absolute;
           left: 0;
           top: 50%;
-          width: 3px;
+          width: 3rem;
           height: 100%;
           opacity: 0;
           transform: translateY(-50%) scale(0);
@@ -298,7 +298,7 @@
             top: unset;
             bottom: 0;
             width: 100%;
-            height: 2px;
+            height: 2rem;
           }
         }
         &:hover {
@@ -330,7 +330,7 @@
 }
 @mixin header-768 {
   .header {
-    padding: 20px 0;
+    padding: 20rem 0;
 
     &__inner {
       flex-wrap: wrap;
@@ -350,12 +350,12 @@
       }
       .nav {
         position: fixed;
-        top: 76px;
+        top: 76rem;
         left: 0;
         width: 100%;
-        height: calc(100% - 76px);
+        height: calc(100% - 76rem);
         background: rgba($black, 0.4);
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(4rem);
         z-index: 0;
         transform: translate(100%);
         opacity: 0;
@@ -366,23 +366,23 @@
           top: 0;
           right: 0;
           width: 35%;
-          min-width: 280px;
+          min-width: 280rem;
           height: 100%;
           flex-direction: column;
           align-items: flex-start;
           justify-content: flex-start;
           box-sizing: border-box;
           background: #f5d54e;
-          padding: 50px 25px;
+          padding: 50rem 25rem;
           transform: translate(100%);
           opacity: 0;
           transition: 0.15s ease-in-out 0s;
           &-group {
             flex-direction: column;
             align-items: flex-start;
-            gap: 20px;
+            gap: 20rem;
             color: $black;
-            border-top: 1px solid $white;
+            border-top: 1rem solid $white;
             width: 100%;
             &:first-child {
               border: 0;
@@ -394,14 +394,14 @@
             position: relative;
             padding: 0.8em 1.5em;
             width: 100%;
-            font-size: 18px;
+            font-size: 18rem;
             &:after {
               content: "";
               background: $white;
               position: absolute;
               left: 0;
               top: 50%;
-              width: 3px;
+              width: 3rem;
               height: 100%;
               opacity: 0;
               transform: translateY(-50%) scale(0);
@@ -424,7 +424,7 @@
                 top: unset;
                 bottom: 0;
                 width: 100%;
-                height: 2px;
+                height: 2rem;
               }
             }
             &:hover {
@@ -473,10 +473,10 @@
       &-link {
         padding: 0.5em 1em;
         width: auto;
-        font-size: 16px;
+        font-size: 16rem;
         &:after {
           width: 100%;
-          height: 2px;
+          height: 2rem;
           top: unset;
           bottom: 0;
           &:hover {
@@ -488,7 +488,7 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 10rem;
         a {
         }
       }
@@ -507,8 +507,8 @@
   .header {
     &.sticky {
       .nav {
-        top: 70px;
-        height: calc(100% - 70px);
+        top: 70rem;
+        height: calc(100% - 70rem);
       }
     }
     &__inner {
@@ -522,24 +522,24 @@
 }
 @mixin header-390 {
   .header {
-    padding: 15px 0;
+    padding: 15rem 0;
     &__inner {
-      gap: 20px;
+      gap: 20rem;
     }
     &.sticky {
       .nav {
-        top: 64px;
-        height: calc(100% - 64px);
+        top: 64rem;
+        height: calc(100% - 64rem);
       }
     }
   }
   .nav {
     &__inner {
       &-group{
-        gap: 10px 0;
+        gap: 10rem 0;
       }
       &-link {
-        font-size: 15px;
+        font-size: 15rem;
       }
     }
   }

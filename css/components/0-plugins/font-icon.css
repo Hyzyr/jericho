@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "font-icon";
+  src: url("../fonts/font-icon.ttf") format("truetype"), url("../fonts/font-icon.eot") format("embedded-opentype"), url("../fonts/font-icon.woff") format("woff");
+}
+.ico {
+  font-family: "font-icon" !important;
+  font-size: 18rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.arrow-down:before {
+  content: "\ea01";
+}
+
+.arrrow-up:before {
+  content: "\ea02";
+}
+
+.overview:before {
+  content: "\ea03";
+}
+
+.dapps:before {
+  content: "\ea04";
+}
+
+.scanner:before {
+  content: "\ea05";
+}
+
+.collection:before {
+  content: "\ea06";
+}
+
+.setting:before {
+  content: "\ea07";
+}
+
+.notification:before {
+  content: "\ea08";
+}
+
+.filter:before {
+  content: "\ea09";
+}
+
+.close:before {
+  content: "\ea0a";
+}
+
+.globus:before {
+  content: "\ea0b";
+}
+
+.view:before {
+  content: "\ea0c";
+}

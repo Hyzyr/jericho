@@ -1,15 +1,15 @@
 .hero {
-  padding: 320px 0 210px;
+  padding: 320rem 0 210rem;
   position: relative;
   &__inner {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 30rem;
     z-index: 2;
     p {
-      max-width: 660px;
+      max-width: 660rem;
       font-weight: 600;
     }
   }
@@ -19,18 +19,18 @@
   }
 }
 .about {
-  margin-top: -170px;
+  margin-top: -170rem;
   position: relative;
   z-index: 3;
   position: relative;
   &__inner {
-    padding: 380px 30px 300px;
-    max-width: 1100px;
+    padding: 380rem 30rem 300rem;
+    max-width: 1100rem;
     margin: 0 auto;
     p {
       text-align: center;
       font-weight: 400;
-      max-width: 710px;
+      max-width: 710rem;
       font-family: $font-secondary;
       line-height: 1.6;
       margin: 0 auto;
@@ -38,7 +38,7 @@
   }
   &__bg {
     z-index: -1;
-    width: 1920px;
+    width: 1920rem;
     left: 50%;
     transform: translateX(-50%);
     img {
@@ -51,7 +51,7 @@
   z-index: 2;
   &__inner {
     h2 {
-      margin-bottom: 28px;
+      margin-bottom: 28rem;
       text-align: center;
     }
     &-content {
@@ -59,29 +59,29 @@
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 20rem;
     }
     &-column {
-      width: calc(33.3% - 20px);
+      width: calc(33.3% - 20rem);
       display: flex;
       flex-direction: column;
-      gap: 46px;
+      gap: 46rem;
       &.midle {
-        margin-top: 130px;
+        margin-top: 130rem;
       }
     }
   }
   &Item {
-    padding: 18px 26px 26px;
+    padding: 18rem 26rem 26rem;
     background: $white;
-    box-shadow: 5px 8px 33px rgba(0, 0, 0, 0.25);
-    border-radius: 24px;
+    box-shadow: 5rem 8rem 33rem rgba(0, 0, 0, 0.25);
+    border-radius: 24rem;
     position: relative;
     width: 100%;
-    max-width: 424px;
+    max-width: 424rem;
     &__image {
       .ratioImage {
-        border-radius: 15px;
+        border-radius: 15rem;
         overflow: hidden;
         &:after {
           content: "";
@@ -102,7 +102,7 @@
       position: absolute;
       width: 80%;
       left: 50%;
-      bottom: 55px;
+      bottom: 55rem;
       text-align: center;
       transform: translateX(-50%);
       font-weight: 800;
@@ -111,28 +111,28 @@
 }
 .service {
   position: relative;
-  margin-top: -120px;
-  padding: 230px 0 145px;
+  margin-top: -120rem;
+  padding: 230rem 0 145rem;
   &__inner {
     h3 {
-      margin-bottom: 35px;
+      margin-bottom: 35rem;
       text-align: center;
     }
     &-row {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 25px 15px;
+      gap: 25rem 15rem;
     }
   }
   &Item {
-    width: calc(33.3% - 15px);
+    width: calc(33.3% - 15rem);
     &__body {
-      max-width: 285px;
+      max-width: 285rem;
       margin: 0 auto;
       &-image {
-        max-width: 175px;
-        margin: 0 auto 25px;
+        max-width: 175rem;
+        margin: 0 auto 25rem;
         .ratioImage {
           padding-bottom: 100%;
         }
@@ -149,7 +149,7 @@
       font-weight: bold;
       color: $white;
       background: $gradient;
-      border-radius: 34px;
+      border-radius: 34rem;
       text-align: center;
     }
   }
@@ -158,7 +158,7 @@
   }
 }
 .products {
-  padding: 30px 0 20px;
+  padding: 30rem 0 20rem;
   position: relative;
   z-index: 3;
   &__inner {
@@ -166,18 +166,18 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      gap: 15px;
-      margin: 52px 0 40px;
+      gap: 15rem;
+      margin: 52rem 0 40rem;
     }
   }
   &Item {
-    width: calc(16.6% - 15px);
+    width: calc(16.6% - 15rem);
     &__image {
       width: 100%;
-      max-width: 155px;
-      border-radius: 50px;
+      max-width: 155rem;
+      border-radius: 50rem;
       overflow: hidden;
-      margin: 0 auto 18px;
+      margin: 0 auto 18rem;
       img {
         width: 100%;
         height: 100%;
@@ -198,11 +198,11 @@
 }
 .info {
   position: relative;
-  padding: 180px 0 210px;
+  padding: 180rem 0 210rem;
   &__inner {
-    max-width: 540px;
+    max-width: 540rem;
     h4 {
-      margin-bottom: 20px;
+      margin-bottom: 20rem;
       color: $white;
     }
     p {
@@ -213,7 +213,7 @@
   }
   &__bg {
     z-index: -1;
-    min-width: 1800px;
+    min-width: 1800rem;
     left: 50%;
     transform: translateX(-50%);
     img {
@@ -223,16 +223,16 @@
 }
 .contact {
   &__inner {
-    padding: 220px 0 100px;
+    padding: 220rem 0 100rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     &-info {
       display: flex;
       flex-direction: column;
-      gap: 25px;
-      width: calc(50% - 10px);
-      max-width: 740px;
+      gap: 25rem;
+      width: calc(50% - 10rem);
+      max-width: 740rem;
       p {
         color: $white;
       }
@@ -241,11 +241,11 @@
       }
     }
     &-form {
-      width: calc(50% - 10px);
-      max-width: 580px;
+      width: calc(50% - 10rem);
+      max-width: 580rem;
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 16rem;
       align-items: flex-start;
     }
   }
@@ -253,7 +253,7 @@
 .wrapper {
   position: relative;
   z-index: 3;
-  margin-top: -180px;
+  margin-top: -180rem;
 
   &__bg {
   }
@@ -262,10 +262,10 @@
 @mixin index-1600 {
   .about {
     &__inner{
-      padding: 360px 30px 300px;
+      padding: 360rem 30rem 300rem;
     }
     &__bg {
-      min-width: 1450px;
+      min-width: 1450rem;
       left: 50%;
       transform: translateX(-50%);
     }
@@ -280,7 +280,7 @@
 }
 @mixin index-1450 {
   .hero {
-    padding: 300px 0 190px;
+    padding: 300rem 0 190rem;
     &__bg {
       width: 100%;
     }
@@ -288,7 +288,7 @@
 }
 @mixin index-1300 {
   .hero {
-    padding: 270px 0 170px;
+    padding: 270rem 0 170rem;
   }
   .contact {
     &__inner {
@@ -300,18 +300,18 @@
 }
 @mixin index-1280 {
   .hero {
-    padding: 250px 0 150px;
+    padding: 250rem 0 150rem;
   }
   .about {
-    margin-top: -130px;
+    margin-top: -130rem;
     &__inner {
-      padding: 260px 20px 200px;
+      padding: 260rem 20rem 200rem;
       p {
-        max-width: 500px;
+        max-width: 500rem;
       }
     }
     &__bg {
-      width: 1124px;
+      width: 1124rem;
       min-width: unset;
       left: 50%;
       transform: translatex(-50%);
@@ -320,10 +320,10 @@
   .benefits {
     &__inner {
       &-content {
-        gap: 10px;
+        gap: 10rem;
       }
       &-column {
-        width: calc(33.3% - 10px);
+        width: calc(33.3% - 10rem);
       }
     }
   }
@@ -332,25 +332,25 @@
   .benefits {
     &__inner {
       h2 {
-        margin-bottom: 40px;
+        margin-bottom: 40rem;
       }
       &-content {
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 30rem;
       }
       &-column {
         width: 100%;
         flex-direction: row;
         justify-content: center;
-        gap: 20px;
+        gap: 20rem;
         &.midle {
           margin-top: 0;
         }
       }
     }
     &Item {
-      max-width: 500px;
-      width: calc(50% - 10px);
+      max-width: 500rem;
+      width: calc(50% - 10rem);
     }
   }
 }
@@ -358,15 +358,15 @@
   .contact {
     &__inner {
       flex-direction: column;
-      padding: 260px 0 250px;
-      gap: 30px;
+      padding: 260rem 0 250rem;
+      gap: 30rem;
       &-info {
         width: 100%;
-        max-width: 700px;
+        max-width: 700rem;
       }
       &-form {
         width: 100%;
-        max-width: 700px;
+        max-width: 700rem;
       }
     }
   }
@@ -374,7 +374,7 @@
     &Item {
       &__body {
         &-image {
-          max-width: 160px;
+          max-width: 160rem;
         }
       }
     }
@@ -388,59 +388,59 @@
       }
     }
     &Item {
-      width: calc(50% - 15px);
-      max-width: 300px;
+      width: calc(50% - 15rem);
+      max-width: 300rem;
     }
   }
   .products {
     &__inner {
       &-row {
         flex-wrap: wrap;
-        gap: 25px 15px;
-        margin-bottom: 30px;
+        gap: 25rem 15rem;
+        margin-bottom: 30rem;
       }
     }
     &Item {
       &__image {
-        max-width: 210px;
+        max-width: 210rem;
       }
-      width: calc(33.3% - 15px);
+      width: calc(33.3% - 15rem);
     }
   }
 }
 @mixin index-768 {
   .hero {
-    padding: 180px 0 130px;
+    padding: 180rem 0 130rem;
     &__inner {
-      gap: 25px;
+      gap: 25rem;
     }
   }
   .about {
-    margin-top: -100px;
+    margin-top: -100rem;
     &__inner {
-      padding: 230px 30px 185px
+      padding: 230rem 30rem 185rem
     }
   }
   .benefits {
     &Item {
-      padding: 10px;
+      padding: 10rem;
       h4 {
-        bottom: 45px;
+        bottom: 45rem;
       }
     }
   }
   .service {
     &__inner {
       &-row {
-        gap: 20px 10px;
+        gap: 20rem 10rem;
       }
     }
     &Item {
-      width: calc(50% - 10px);
+      width: calc(50% - 10rem);
       &__body {
         &-image {
-          width: 165px;
-          height: 165px;
+          width: 165rem;
+          height: 165rem;
         }
       }
       h6 {
@@ -449,34 +449,34 @@
     }
   }
   .info {
-    padding: 132px 0 160px;
+    padding: 132rem 0 160rem;
   }
 }
 @mixin index-668 {
   .benefits {
     &__inner {
       &-content {
-        gap: 10px;
+        gap: 10rem;
       }
     }
     &Item {
-      width: calc(50% - 6px);
+      width: calc(50% - 6rem);
     }
   }
 .hero{
-  padding: 220px 0 130px;
+  padding: 220rem 0 130rem;
 
 }
 }
 @mixin index-580 {
   .hero {
     &__inner {
-      gap: 20px;
+      gap: 20rem;
     }
   }
   .about {
     &__inner {
-      padding: 230px 0 170px;
+      padding: 230rem 0 170rem;
     }
   }
   .service {
@@ -486,8 +486,8 @@
       width: 100%;
       &__body {
         &-image {
-          width: 165px;
-          height: 165px;
+          width: 165rem;
+          height: 165rem;
         }
       }
       h6 {
@@ -501,41 +501,41 @@
         flex-wrap: wrap;
       }
       &-content {
-        gap: 20px;
+        gap: 20rem;
       }
     }
     &Item {
       width: 100%;
-      max-width: 450px;
+      max-width: 450rem;
     }
   }
   .contact {
     &__inner {
-      padding: 260px 0 150px;
+      padding: 260rem 0 150rem;
     }
   }
 }
 @mixin index-460 {
   .contact {
     &__inner {
-      // padding: 170px 0 70px;
+      // padding: 170rem 0 70rem;
     }
   }
   .about {
     &__inner {
-      // padding: 165px 0 90px;
+      // padding: 165rem 0 90rem;
     }
   }
 }
 @mixin index-390 {
   .hero{
-    padding: 200px 0 130px;
+    padding: 200rem 0 130rem;
   
   }
   .benefits {
     &Item {
       h4 {
-        bottom: 40px;
+        bottom: 40rem;
       }
     }
   }
@@ -543,20 +543,20 @@
     &__inner {
       &-row {
         flex-wrap: wrap;
-        gap: 25px 15px;
-        margin-bottom: 30px;
+        gap: 25rem 15rem;
+        margin-bottom: 30rem;
       }
     }
     &Item {
       &__image {
-        max-width: 210px;
+        max-width: 210rem;
       }
-      width: calc(50% - 15px);
+      width: calc(50% - 15rem);
     }
   }
   .about{
     &__inner{
-      padding: 190px 0 160px;
+      padding: 190rem 0 160rem;
     }
   }
 }

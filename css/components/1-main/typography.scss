@@ -49,225 +49,225 @@
 /* Typography */
 
 h1 {
-  font-size: 80px;
+  font-size: 80rem;
 }
 h2 {
-  font-size: 64px;
+  font-size: 64rem;
   font-weight: 800;
 }
 h3 {
-  font-size: 50px;
+  font-size: 50rem;
   &._sm {
-    font-size: 48px;
+    font-size: 48rem;
   }
 }
 h4 {
-  font-size: 24px;
+  font-size: 24rem;
   &._lg {
-    font-size: 36px;
+    font-size: 36rem;
   }
 }
 h6 {
-  font-size: 20px;
+  font-size: 20rem;
 }
 p {
-  font-size: 24px;
+  font-size: 24rem;
   &._lg {
-    font-size: 36px;
+    font-size: 36rem;
   }
   &._sm {
-    font-size: 20px;
+    font-size: 20rem;
   }
 }
 
 @mixin typography-1450 {
   h1 {
-    font-size: 75px;
+    font-size: 75rem;
   }
   h2 {
-    font-size: 60px;
+    font-size: 60rem;
   }
 }
 @mixin typography-1300 {
   h1 {
-    font-size: 70px;
+    font-size: 70rem;
   }
   h2 {
-    font-size: 55px;
+    font-size: 55rem;
   }
   p {
     &._lg {
-      font-size: 32px;
+      font-size: 32rem;
     }
   }
 }
 @mixin typography-1280 {
   h1 {
-    font-size: 65px;
+    font-size: 65rem;
   }
   h2 {
-    font-size: 50px;
+    font-size: 50rem;
   }
   p {
     &._lg {
-      font-size: 24px;
+      font-size: 24rem;
     }
   }
 }
 @mixin typography-1160 {
   h1 {
-    font-size: 60px;
+    font-size: 60rem;
   }
   h2 {
-    font-size: 45px;
+    font-size: 45rem;
   }
   h3 {
-    font-size: 45px;
+    font-size: 45rem;
     &._sm {
-      font-size: 43px;
+      font-size: 43rem;
     }
   }
   h4 {
-    font-size: 22px;
+    font-size: 22rem;
   }
   p {
-    font-size: 22px;
+    font-size: 22rem;
   }
 }
 @mixin typography-1025 {
   h3 {
     &._sm {
-      font-size: 40px;
+      font-size: 40rem;
     }
   }
   h6 {
-    font-size: 18px;
+    font-size: 18rem;
   }
 }
 @mixin typography-940 {
   h4 {
-    font-size: 21px;
+    font-size: 21rem;
   }
 }
 @mixin typography-768 {
   h1 {
-    font-size: 55px;
+    font-size: 55rem;
   }
   h2 {
-    font-size: 42px;
+    font-size: 42rem;
   }
   h3 {
-    font-size: 40px;
+    font-size: 40rem;
     &._sm {
-      font-size: 37px;
+      font-size: 37rem;
     }
   }
   h4 {
     &._lg {
-      font-size: 32px;
+      font-size: 32rem;
     }
   }
 
 }
 @mixin typography-668 {
   h1 {
-    font-size: 50px;
+    font-size: 50rem;
   }
   h2 {
-    font-size: 40px;
+    font-size: 40rem;
   }
   h3 {
-    font-size: 35px;
+    font-size: 35rem;
     &._sm {
-      font-size: 34px;
+      font-size: 34rem;
     }
   }
   h4 {
-    font-size: 18px;
+    font-size: 18rem;
   }
   p {
     &._lg {
-      font-size: 24px;
+      font-size: 24rem;
     }
   }
 }
 @mixin typography-580 {
   h1 {
-    font-size: 38px;
+    font-size: 38rem;
   }
   h2 {
-    font-size: 37px;
+    font-size: 37rem;
   }
   h3 {
-    font-size: 30px;
+    font-size: 30rem;
     &._sm {
-      font-size: 27px;
+      font-size: 27rem;
     }
   }
   h4 {
-    font-size: 20px;
+    font-size: 20rem;
     &._lg {
-      font-size: 27px;
+      font-size: 27rem;
     }
   }
   p {
     &._lg {
-      font-size: 22px;
+      font-size: 22rem;
     }
   }
 }
 @mixin typography-460 {
   h1 {
-    font-size: 33px;
+    font-size: 33rem;
   }
   h2 {
-    font-size: 27px;
+    font-size: 27rem;
   }
   h3 {
-    font-size: 27px;
+    font-size: 27rem;
     &._sm {
-      font-size: 25px;
+      font-size: 25rem;
     }
   }
   h4 {
     &._lg {
-      font-size: 25px;
+      font-size: 25rem;
     }
   }
   p {
     &._lg {
-      font-size: 18px;
+      font-size: 18rem;
     }
     &._sm {
-      font-size: 18px;
+      font-size: 18rem;
     }
   }
 }
 @mixin typography-390 {
   h1 {
-    font-size: 27px;
+    font-size: 27rem;
   }
   h2 {
-    font-size: 25px;
+    font-size: 25rem;
   }
   h3 {
-    font-size: 25px;
+    font-size: 25rem;
     &._sm {
-      font-size: 23px;
+      font-size: 23rem;
     }
   }
   h4 {
-    font-size: 18px;
+    font-size: 18rem;
     &._lg {
-      font-size: 23px;
+      font-size: 23rem;
     }
   }
   p {
     &._lg {
-      font-size: 16px;
+      font-size: 16rem;
     }
     &._sm {
-      font-size: 16px;
+      font-size: 16rem;
     }
   }
 }
