@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "font-icon";
+  src: url("../fonts/font-icon.ttf") format("truetype"), url("../fonts/font-icon.eot") format("embedded-opentype"), url("../fonts/font-icon.woff") format("woff");
+}
+.ico {
+  font-family: "font-icon" !important;
+  font-size: 18rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.arrow-down:before {
+  content: "";
+}
+
+.arrrow-up:before {
+  content: "";
+}
+
+.overview:before {
+  content: "";
+}
+
+.dapps:before {
+  content: "";
+}
+
+.scanner:before {
+  content: "";
+}
+
+.collection:before {
+  content: "";
+}
+
+.setting:before {
+  content: "";
+}
+
+.notification:before {
+  content: "";
+}
+
+.filter:before {
+  content: "";
+}
+
+.close:before {
+  content: "";
+}
+
+.globus:before {
+  content: "";
+}
+
+.view:before {
+  content: "";
+}
