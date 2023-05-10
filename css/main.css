@@ -183,40 +183,40 @@
 }
 /* Typography */
 h1 {
-  font-size: 80px;
+  font-size: 75px;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 800;
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 45px;
 }
 h3._sm {
   font-size: 48px;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 22px;
 }
 h4._lg {
-  font-size: 36px;
+  font-size: 34px;
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
-  font-size: 24px;
+  font-size: 22px;
 }
 p._lg {
-  font-size: 36px;
+  font-size: 34px;
 }
 p._sm {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 :root {
@@ -347,7 +347,7 @@ svg {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 60px;
   background: #ffffff;
 }
@@ -434,7 +434,7 @@ svg {
   color: #000000;
   font-family: "Product Sans", sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 1;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -781,7 +781,7 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 60px 0;
+  padding: 50px 0;
   z-index: 1;
   -webkit-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
@@ -802,11 +802,10 @@ svg {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 30px;
+  gap: 25px;
   z-index: 2;
 }
 .header__inner-logo {
-  width: 255px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1323,11 +1322,11 @@ svg {
   }
 
   h1 {
-    font-size: 75px;
+    font-size: 70px;
   }
 
   h2 {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   .hero {
@@ -1351,15 +1350,15 @@ svg {
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 65px;
   }
 
   h2 {
-    font-size: 55px;
+    font-size: 50px;
   }
 
   p._lg {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .hero {
@@ -1371,7 +1370,7 @@ svg {
   }
 
   .input {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .logo {
@@ -1395,15 +1394,15 @@ svg {
   }
 
   h1 {
-    font-size: 65px;
+    font-size: 60px;
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   p._lg {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .hero {
@@ -1436,18 +1435,18 @@ svg {
 }
 @media (max-width: 1160px) {
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   h3 {
-    font-size: 45px;
+    font-size: 40px;
   }
   h3._sm {
-    font-size: 43px;
+    font-size: 40px;
   }
 
   h4 {
@@ -1491,7 +1490,7 @@ svg {
   }
 
   .button {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .logo {
@@ -1683,11 +1682,11 @@ svg {
   }
 
   h3._sm {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h6 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (max-width: 940px) {
@@ -1719,7 +1718,7 @@ svg {
   }
 
   h4 {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   .footer__inner-content {
@@ -1736,26 +1735,26 @@ svg {
   }
 
   h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
 
   h2 {
-    font-size: 42px;
+    font-size: 40px;
   }
 
   h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
   h3._sm {
-    font-size: 37px;
+    font-size: 35px;
   }
 
   h4._lg {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .button {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .logo {
@@ -1999,30 +1998,30 @@ svg {
 }
 @media (max-width: 668px) {
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
   h3._sm {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   p._lg {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .button {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .anchor {
@@ -2061,29 +2060,29 @@ svg {
   }
 
   h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 
   h2 {
-    font-size: 37px;
+    font-size: 33px;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 27px;
   }
   h3._sm {
-    font-size: 27px;
+    font-size: 25px;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 17px;
   }
   h4._lg {
-    font-size: 27px;
+    font-size: 25px;
   }
 
   p._lg {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .hero__inner {
@@ -2123,33 +2122,33 @@ svg {
 }
 @media (max-width: 460px) {
   h1 {
-    font-size: 33px;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: 27px;
+    font-size: 25px;
   }
 
   h3 {
-    font-size: 27px;
+    font-size: 25px;
   }
   h3._sm {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   h4._lg {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   p._lg {
-    font-size: 18px;
+    font-size: 16px;
   }
   p._sm {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .button {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .anchor {
@@ -2171,32 +2170,32 @@ svg {
 }
 @media (max-width: 390px) {
   h1 {
-    font-size: 27px;
+    font-size: 25px;
   }
 
   h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 23px;
   }
   h3._sm {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
   h4._lg {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   p._lg {
-    font-size: 16px;
+    font-size: 14px;
   }
   p._sm {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .hero {
