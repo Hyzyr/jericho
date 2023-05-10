@@ -24,7 +24,7 @@
   z-index: 3;
   position: relative;
   &__inner {
-    padding: 380px 30px 250px;
+    padding: 380px 30px 300px;
     max-width: 1100px;
     margin: 0 auto;
     p {
@@ -38,6 +38,9 @@
   }
   &__bg {
     z-index: -1;
+    width: 1920px;
+    left: 50%;
+    transform: translateX(-50%);
     img {
       object-fit: contain !important;
     }
@@ -258,13 +261,14 @@
 
 @mixin index-1600 {
   .about {
-    // &__bg {
-    //   width: 100%;
-    //   max-width: 1200px;
-    //   min-width: 950px;
-    //   left: 50%;
-    //   transform: translateX(-50%);
-    // }
+    &__inner{
+      padding: 360px 30px 300px;
+    }
+    &__bg {
+      min-width: 1450px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
   .wrapper {
     &__bg {
@@ -301,16 +305,16 @@
   .about {
     margin-top: -130px;
     &__inner {
-      padding: 300px 20px 200px;
+      padding: 260px 20px 200px;
       p {
         max-width: 500px;
       }
     }
     &__bg {
+      width: 1124px;
+      min-width: unset;
       left: 50%;
       transform: translatex(-50%);
-      max-width: 980px;
-      min-width: 880px;
     }
   }
   .benefits {
@@ -414,7 +418,7 @@
   .about {
     margin-top: -100px;
     &__inner {
-      padding: 250px 30px 150px;
+      padding: 230px 30px 185px
     }
   }
   .benefits {
@@ -472,7 +476,7 @@
   }
   .about {
     &__inner {
-      padding: 250px 0 150px;
+      padding: 230px 0 170px;
     }
   }
   .service {
@@ -519,7 +523,7 @@
   }
   .about {
     &__inner {
-      padding: 165px 0 90px;
+      // padding: 165px 0 90px;
     }
   }
 }
@@ -548,6 +552,11 @@
         max-width: 210px;
       }
       width: calc(50% - 15px);
+    }
+  }
+  .about{
+    &__inner{
+      padding: 170px 0 140px;
     }
   }
 }
