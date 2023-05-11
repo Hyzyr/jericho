@@ -310,6 +310,31 @@ svg {
   pointer-events: none;
 }
 
+input::-webkit-validation-bubble-icon {
+  display: none;
+}
+
+::-webkit-validation-bubble-message:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+::-webkit-validation-bubble-message {
+  color: #eee;
+  background: #000;
+  border-color: #444;
+  -webkit-box-shadow: 4px 4px 4px rgba(100, 100, 100, 0.5);
+}
+
+::-webkit-validation-bubble-arrow {
+  background: #000;
+  border-color: #444;
+  -webkit-box-shadow: 0 0 0 0;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2071,32 +2096,29 @@ svg {
   }
 
   h1 {
-    font-size: 33rem;
+    font-size: 38rem;
   }
 
   h2 {
-    font-size: 27rem;
+    font-size: 37rem;
   }
 
   h3 {
-    font-size: 27rem;
+    font-size: 30rem;
   }
   h3._sm {
-    font-size: 25rem;
+    font-size: 27rem;
   }
 
   h4 {
-    font-size: 17rem;
+    font-size: 20rem;
   }
   h4._lg {
-    font-size: 25rem;
+    font-size: 27rem;
   }
 
   p._lg {
-    font-size: 18rem;
-  }
-  p._sm {
-    font-size: 18rem;
+    font-size: 22rem;
   }
 
   .hero__inner {

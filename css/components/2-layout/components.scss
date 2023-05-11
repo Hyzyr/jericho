@@ -55,6 +55,7 @@
     min-height: 164rem;
     border-radius: 30rem;
   }
+ 
 }
 .button {
   cursor: pointer;
@@ -239,7 +240,6 @@
 }
 
 @mixin components-1024 {
-  
 }
 @mixin components-940 {
   .logo {
@@ -253,12 +253,11 @@
   .logo {
     width: 200rem;
   }
-  .bg{
-    img{
+  .bg {
+    img {
       object-fit: cover;
     }
   }
-
 }
 @mixin components-740 {
 }
@@ -275,14 +274,11 @@
   .logo {
     width: 170rem;
   }
- 
 }
 
-@mixin components-600{
- 
+@mixin components-600 {
 }
 @mixin components-520 {
-  
 }
 @mixin components-450 {
   .button {
@@ -299,7 +295,6 @@
   .anchor {
     top: -90rem;
   }
- 
 }
 // @mixin components-460 {
 //   .button {

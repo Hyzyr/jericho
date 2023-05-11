@@ -4,7 +4,7 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
-  font-size: .6px;
+  font-size: 0.6px;
 }
 * {
   margin: 0rem;
@@ -80,4 +80,28 @@ li {
 img,
 svg {
   pointer-events: none;
+}
+
+input::-webkit-validation-bubble-icon {
+  display: none;
+}
+
+::-webkit-validation-bubble-message:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+::-webkit-validation-bubble-message 
+{
+    color: #eee;
+    background: #000;
+    border-color: #444;
+    -webkit-box-shadow: 4px 4px 4px rgba(100,100,100,0.5);
+}
+::-webkit-validation-bubble-arrow {
+  background: #000;
+  border-color: #444;
+  -webkit-box-shadow: 0 0 0 0;
 }
