@@ -225,10 +225,10 @@
   }
   .nav {
     position: fixed;
-    top: 82rem;
+    top: 80rem;
     left: 0;
     width: 100%;
-    height: calc(100% - 82rem);
+    height: calc(100% - 80rem);
     background: rgba($black, 0.4);
     backdrop-filter: blur(4rem);
     z-index: 0;
@@ -331,7 +331,6 @@
 @mixin header-450 {
   .header {
     padding: 20rem 0;
-
     &__inner {
       flex-wrap: wrap;
       justify-content: center;
@@ -350,10 +349,10 @@
       }
       .nav {
         position: fixed;
-        top: 76rem;
+        top: 74rem;
         left: 0;
         width: 100%;
-        height: calc(100% - 76rem);
+        height: calc(100% - 74rem);
         background: rgba($black, 0.4);
         backdrop-filter: blur(4rem);
         z-index: 0;

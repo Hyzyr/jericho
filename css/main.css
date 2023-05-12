@@ -1242,7 +1242,7 @@ input::-webkit-validation-bubble-icon {
   padding: 180rem 0 210rem;
 }
 .info__inner {
-  max-width: 540rem;
+  max-width: 560rem;
 }
 .info__inner h4 {
   margin-bottom: 20rem;
@@ -1553,10 +1553,10 @@ input::-webkit-validation-bubble-icon {
 
   .nav {
     position: fixed;
-    top: 82rem;
+    top: 80rem;
     left: 0;
     width: 100%;
-    height: calc(100% - 82rem);
+    height: calc(100% - 80rem);
     background: rgba(0, 0, 0, 0.4);
     -webkit-backdrop-filter: blur(4rem);
             backdrop-filter: blur(4rem);
@@ -1855,10 +1855,10 @@ input::-webkit-validation-bubble-icon {
   }
   .header.sticky .nav {
     position: fixed;
-    top: 76rem;
+    top: 74rem;
     left: 0;
     width: 100%;
-    height: calc(100% - 76rem);
+    height: calc(100% - 74rem);
     background: rgba(0, 0, 0, 0.4);
     -webkit-backdrop-filter: blur(4rem);
             backdrop-filter: blur(4rem);
