@@ -105,6 +105,10 @@
       }
     }
   }
+  &--policy{
+    padding: 30px 0 0;
+    background: $gray;
+  }
 }
 
 @mixin footer-680 {

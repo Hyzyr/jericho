@@ -258,6 +258,31 @@
   &__bg {
   }
 }
+.policy {
+  margin: 170px 0 100px;
+  &__inner {
+    padding: 20px ;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  h1{
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  h2{
+    font-weight: 600;
+  }
+  p{
+    line-height: 1.4;
+  }
+  a{
+    color: blue;
+  }
+}
 
 @mixin index-1024 {
   .about {
@@ -276,6 +301,9 @@
         object-position: right;
       }
     }
+  }
+  .policy{
+    margin: 150px 0 90px;
   }
 }
 @mixin index-940 {
@@ -297,8 +325,11 @@
       }
     }
   }
-  .about{
+  .about {
     margin-top: -140rem;
+  }
+  .policy{
+    margin: 100px 0 40px;
   }
 }
 @mixin index-740 {
@@ -356,9 +387,11 @@
       width: calc(50% - 10rem);
     }
   }
+  .policy{
+    margin: 80px 0 40px;
+  }
 }
 @mixin index-600 {
-  
   .contact {
     &__inner {
       flex-direction: column;
@@ -455,6 +488,9 @@
   .info {
     padding: 132rem 0 160rem;
   }
+   .policy{
+    margin: 130px 0 40px;
+  }
 }
 @mixin index-400 {
   .benefits {
@@ -475,6 +511,16 @@
       }
     }
   }
+  .policy{
+    &__inner{
+      padding: 15px;
+      h2{
+        font-size:35rem ;
+        @include ellipsis;
+      }
+    }
+  }
+  
 }
 @mixin index-350 {
   .hero {

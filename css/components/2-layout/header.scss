@@ -48,6 +48,10 @@
     background: #f5d54e;
     transition: 0.4s ease;
   }
+  &--policy {
+    background: $white !important;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
 }
 .nav {
   &__inner {
@@ -109,6 +113,26 @@
           }
         }
       }
+    }
+  }
+  &--policy {
+    a {
+      &:hover {
+        color: $primary !important;
+      }
+    }
+    .dropdown{
+      &:hover{
+        button{
+          color: $primary !important;
+        }
+      }
+      a{
+        &:hover{
+          color: $white !important;
+        }
+      }
+     
     }
   }
 }
@@ -271,7 +295,7 @@
         width: 100%;
         &:after {
           content: "";
-          background: $white;
+          background: $primary;
           position: absolute;
           left: 0;
           top: 50%;
@@ -324,6 +348,13 @@
         opacity: 1;
         transition: 0.3s ease-in-out 0.05s;
         transform: translate(0);
+      }
+    }
+    &--policy {
+      .nav {
+        &__inner {
+          background: $white;
+        }
       }
     }
   }
